@@ -1,4 +1,4 @@
-# ColorLogem-npm
+# color-logem-npm
 
 ColorLogem - A Lightweight and Customizable Colorful Console Logger
 
