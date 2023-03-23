@@ -1,14 +1,15 @@
 {
-  "name": "logocoltem",
-  "version": "1.0.0",
-  "description": "Collog is a lightweight and easy-to-use console logger for Node.js applications that adds color and style to your console output. With Collog, you can easily customize the colors, background colors, and text styles of your console output to suit your needs.",
+  "name": "@buike/color-logem",
+  "version": "1.1.0",
+  "description": "color-logem is a lightweight and easy-to-use console logger for Node.js applications that adds color and style to your console output. With color-logem, you can easily customize the colors, background colors, and text styles of your console output to suit your needs.",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ogubuike245/logcoltem-npm.git"
+    "url": "git+https://github.com/ogubuike245/color-logem-npm.git"
   },
   "keywords": [
     "log",
@@ -18,7 +19,10 @@
   "author": "ogubuike emejuru",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ogubuike245/logcoltem-npm/issues"
+    "url": "https://github.com/ogubuike245/color-logem-npm/issues"
   },
-  "homepage": "https://github.com/ogubuike245/logcoltem-npm#readme"
+  "homepage": "https://github.com/ogubuike245/color-logem-npm#readme",
+  "dependencies": {
+    "chalk": "^5.2.0"
+  }
 }
